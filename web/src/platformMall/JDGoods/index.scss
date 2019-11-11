@@ -1,0 +1,48 @@
+@import "./../../colorConfig";
+
+.jd-content-box{
+    .jd-form-box{
+        margin-bottom: 10px;
+        .ant-form-item-control{
+            line-height: 0px;
+        }
+    }
+    .jd-table-box{
+        .jd-table-box-title{
+            padding-left: 16px;
+            background: $e6f;
+            height: 40px;
+            line-height: 40px;
+            span{
+                font-weight: bold;
+                //font-size: 16px;
+            }
+        }
+    }
+    .jd-table{
+        position: relative;
+    }
+    .batch-operation{
+        position: absolute;
+        bottom: 17px;
+        left: 10px;
+        .batch-btn{
+            margin: 0 3px;
+        }
+    }
+    
+}
+.jd-modal-box{
+    div{
+        padding-left: 20px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .jd-modal-input{
+        display: flex;
+        flex-direction: row;
+        input{
+            width: 100px;
+        }
+    }
+}

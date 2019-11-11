@@ -1,0 +1,51 @@
+@import "../../../colorConfig";
+
+.accountInfo-box{
+  .ant-descriptions-item-label{
+    width: 100px;
+    text-align: right;
+    color: #333;
+  }
+  .inner-box{
+    .common-tit{
+      height: 40px;
+      line-height: 40px;
+      border-bottom: 1px solid #e4e4e4;
+      padding: 0 20px;
+      font-size: 16px;
+      font-weight: 550;
+      .approvalStatus{
+        font-size: 16px;
+        color: #db3c37;
+        margin-left: 20px;
+      }
+    }
+    .infomation{
+      padding: 0 20px;
+      &>div{
+        margin-bottom: 10px;
+        display: flex
+      }
+      .titleLine{
+        font-weight: bold;
+        flex: 0 0 130px;
+        text-align: right;
+      }
+    }
+    .available-credit{
+      color: $blue; 
+      font-style: normal;
+    }
+  }
+}
+.category-form{
+  .Radio{
+    margin-bottom: 0;
+  }
+  .categoryParent{
+    margin-bottom: 10px;
+    div{
+      line-height: 16px !important;
+    }
+  }
+}

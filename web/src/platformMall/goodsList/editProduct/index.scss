@@ -1,0 +1,54 @@
+@import "./../../../colorConfig";
+.edit-product-box{
+    .edit-product-category{
+        background: $e6f;
+        padding-left: 12px;
+        height: 40px;
+        line-height: 40px;
+        .product-category-ft{
+            color: red;
+            margin-right: 10px;
+        }
+    }
+   
+    .edit-product-attribute{
+        .edit-product-content{
+            margin-bottom: 24px;
+            .edit-product-option{
+                padding-left: 55px;
+            }
+            .edit-product-table{
+                margin-top: 10px;
+                padding-left: 50px;
+                width: 34%;
+            }
+        }
+    }
+    .edit-product-img{
+        .edit-product-imgupload{
+            display: flex;
+            flex-direction: column;
+            padding-left: 50px;
+            margin-top: 20px;
+        }
+    }
+    //表单
+    .ant-form-item{
+        margin: 0;
+    }
+    .product-basicinfo-title{
+        margin-top: 10px;
+        padding-left: 12px;
+        background: $e6f;
+        height: 40px;
+        line-height: 40px;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .margin-bot{
+        margin-bottom: 10px;
+    }
+
+}

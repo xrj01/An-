@@ -1,0 +1,55 @@
+$fff:#fff;
+$ff08:rgba(255,255,255,.8);
+$c66:#666;
+$c99:#999;
+$c33:#333;
+$eee: #eee;
+$blue:#1890FF;
+$blue8:rgba(255,255,255,.2);
+$e6f:#E6F3FC;
+$f3f:#F3F3F3;
+$f9f:#F9F9F9;
+$red:red;
+$blue6f:#e6f3fc;
+$borderBottom:#EBEAEA;
+
+
+.line-height-30{line-height: 30px!important;}
+.margin0{margin: 0!important;}
+.margin-bottom-10{margin-bottom: 10px!important;}
+.margin-bottom-20{margin-bottom: 20px!important;}
+.margin-bottom-30{margin-bottom: 30px!important;}
+.margin-top-10{margin-top: 10px!important;}
+.width-200{width: 200px!important;}
+.width-400{width: 400px!important;}
+.width-600{width: 600px!important;}
+.width-300{width: 300px!important;}
+.width-100{width: 100px!important;}
+.width-1{width: 100%!important;}
+.width-50{width: 50px!important;}
+.h4-title{line-height: 20px;padding-left: 10px;border-left: solid 4px $blue;margin-bottom: 20px}
+.operation-box{
+  span{
+    color: $blue;
+    cursor: pointer;
+    width:100px;
+    display: inline-block;
+    text-align: right;
+    padding-right:10px;
+  }
+  span:last-child{
+    width: 80px;
+    text-align: left;
+    padding-left: 10px;
+  }
+}
+.text-right{text-align: right}
+.table-header{background: $blue6f;padding:10px 15px;i{color: $blue;font-size: 18px}}
+.block{display: block}
+.inline-block{display: inline-block}
+.link-detail{
+    color: $c66;
+    &:hover{
+        color: $blue;
+    }
+}

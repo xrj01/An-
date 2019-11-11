@@ -1,0 +1,68 @@
+@import "./../../../colorConfig";
+.product-details-box{
+    .product-basicinfo{
+        .product-basicinfo-content{
+            div{
+                display: flex;
+                // flex-direction: row;
+                // height: 40px;
+                // line-height: 40px;
+                padding-left: 12px;
+                margin-top: 8px;
+                
+                :nth-child(1){
+                    :nth-child(1){
+                        font-weight: bold;
+                        flex: 0 0 90px;
+                        text-align: right;
+                    }
+                }
+                :nth-child(2){
+                    :nth-child(1){
+                        font-weight: bold;
+                        flex: 0 0 90px;
+                        text-align: right;
+                    }
+                }
+            }
+        }
+        
+    }
+    .product-sales-message{
+        .product-sales-table{
+            padding: 10px 0 0 20px;
+            width: 600px;
+        }
+    }
+    .product-img-management{
+        .product-img-box{
+            height: 200px;
+            padding: 20px 30px;
+            display: flex;
+            flex-direction: row;
+            .product-img{
+                width: 160px;
+                height: 160px;
+                border: 1px solid #eee;
+                margin-right: 20px;
+            }
+        }
+    }
+    .product-product-description{
+        
+        .product-product-content{
+            padding:20px;
+            min-height: 800px;
+        }
+    }
+    .product-basicinfo-title{
+        margin-top: 10px;
+        padding-left: 12px;
+        background: $e6f;
+        height: 40px;
+        line-height: 40px;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: left;
+    }
+}

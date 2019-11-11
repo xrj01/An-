@@ -1,0 +1,33 @@
+.account-info-box{
+  width: 100%;
+  .info-row{
+    display: flex;
+    // align-items: center;
+    line-height: 32px;
+    margin-bottom: 10px;
+    .props{
+      flex: 0 0 150px;
+      padding: 0 16px;
+      text-align: right;
+      font-weight: bold;
+    }
+    .value{
+      flex:  1 1;
+    }
+  }
+  .purchase-class{
+    padding: 0 60px;
+    height: 300px;
+    overflow-y: auto;
+    // overflow-y: scroll;
+    h1{
+      background-color: #e6f3fc;
+      line-height: 32px;
+      padding: 0 10px;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.65);
+      font-weight: bold;
+    }
+    
+  }
+}

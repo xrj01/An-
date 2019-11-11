@@ -1,0 +1,37 @@
+@import './../../colorConfig.scss';
+
+.roleJurisdiction-box{
+    .roleJurisdiction-item{
+        margin-bottom: 24px;
+        .first-jurisdiction{
+            height: 50px;
+            display: flex;
+            background: #F9FAFC;
+            border: 1px solid #ccc;
+            padding: 0 16px;
+            align-items: center;
+            font-weight: bold;
+        }
+        .second-jurisdiction{
+            border: 1px solid #ccc;
+            margin-top: -1px;   
+            padding: 0px 16px;
+            .ant-col-4{
+                padding: 10px;
+            }
+        }
+    }
+    .check-all-jurisdiction{
+        height: 50px;
+        display: flex;
+        background: #F9FAFC;
+        border: 1px solid #ccc;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+    .save-btn{
+        text-align: center;
+    }
+}

@@ -1,0 +1,65 @@
+$eee : #eee;
+$red : red;
+.img-big{
+  width: 320px;
+  position: relative;
+  .img-box{
+    width: 100%;
+    height: 320px;
+    background: #fff;
+    position: relative;
+    background: url(./../../image/moren-xiangiqng.png) no-repeat;
+    background-size: 100% 100%;
+    >img{
+      width: 100%;
+      height: 100%;
+    }
+    .img-move-div{
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: 50% top no-repeat #FEDE4F;
+      opacity: .6;
+      cursor: all-scroll;
+    }
+  }
+  ul{
+    width: 100%;
+    display: flex;
+    margin-top: 16px;
+    padding: 0 10px;
+    li{
+      width: 56px;
+      height: 56px;
+      border:solid 1px $eee;
+      margin-right: 10px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+      &.active{
+        border:solid 1px $red;
+      }
+      &:last-child{
+        margin: 0;
+      }
+    }
+  }
+
+  .img-big-box{
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 999;
+    overflow: hidden;
+    background: #fff;
+    img{
+      width: 640px;
+      height: 640px;
+    }
+  }
+}

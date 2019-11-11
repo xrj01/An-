@@ -1,0 +1,19 @@
+@import "./../../colorConfig";
+.pending-orider-box{
+    .merchant-nums {
+        height: 40px;
+        line-height: 40px;
+        background: #e6f3fc;
+        padding: 0 10px;
+
+        em {
+            font-weight: 550;
+            font-size: 18px;
+            font-style: normal;
+        }
+    }
+    .addNew {
+        float: right;
+        margin-right: 20px;
+    }
+}

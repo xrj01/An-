@@ -1,0 +1,15 @@
+@import "./../../colorConfig";
+.platformOrder-box{
+    .status-control{
+        padding: 0 10px;
+        display: flex;
+        // justify-content: space-around;
+        button{
+            margin-right: 14px;
+            margin-bottom: 10px;
+        }
+    }
+    .order-list{
+        padding: 0 10px;
+    }
+}

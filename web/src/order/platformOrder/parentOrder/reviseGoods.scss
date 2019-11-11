@@ -1,0 +1,41 @@
+.reviseGoods-box{
+    .addNew{
+        float: right;
+        margin-right: 20px;
+    }
+    .delete{
+        color: rgb(179, 58, 58);
+        cursor: pointer;
+    }
+    .thumbnail{
+        width: 55px;
+        height: 38px;
+        margin: 0 auto;
+        border:1px solid #ccc;
+        img{
+            width: 100%;
+        }
+    }
+    .goodsName{
+        line-height: 26px;
+        p{
+            margin-bottom: 0;
+        }
+    }
+    .footer{
+        text-align: right;
+        padding-right: 20px;
+        b{
+            font-size: 18px;
+            color:  rgb(179, 58, 58);
+        }
+    }
+    .goback{
+       float: right;
+       margin-right: 20px; 
+    }
+}
+.edit-goods-input-box{
+    margin-bottom: 20px;
+    padding-left: 100px;
+}

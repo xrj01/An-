@@ -1,0 +1,87 @@
+@import './../../../../colorConfig.scss';
+.search-box{
+  &>div{
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: bottom;
+  }
+  .btn-box{
+    button{
+      margin-right: 10px;
+    }
+  }
+}
+.table-btn{
+  span{
+    cursor: pointer;
+  }
+  span:hover{
+    color: #108ee9;
+  }
+}
+.categoryManage{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tab-box{
+  position: relative;
+  .batch-operation{
+    position: absolute;
+    bottom: 16px;
+    left: 10px;
+    .batch-btn{
+      margin-right: 10px;
+    }
+  }
+  .editbtn{
+    cursor: pointer;
+    &:hover{
+      color: #108ee9;
+    }
+  }
+}
+.blue{
+  color: $blue;
+  cursor: pointer;
+}
+.logo-tips{
+    p{
+        margin-bottom: 5px;
+        font-size: 14px;
+        span{
+            font-weight: bold;
+        }
+    }
+}
+.accounts-logo{
+    .ant-spin-nested-loading{
+        height: 114px;
+    }
+}
+/* .departmentIDwidth{
+  min-width: 100px;
+} */
+/* .department-table-box{
+  .ant-table-row-level-0 td{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .ant-table-row-level-1 td{
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .ant-table-row-level-2 td{
+    font-size: 16px;
+    font-weight: 460;
+  }
+  .ant-table-row-level-3 td{
+    font-size: 14px;
+    // font-weight: 300;
+  }
+  .ant-table-row-level-4 td{
+    font-size: 12px;
+    // font-weight: 300;
+  }
+} */

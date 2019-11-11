@@ -1,0 +1,32 @@
+@import "./../../colorConfig";
+.platformOrder-box{
+    .status-control{
+        padding: 0 10px;
+        display: flex;
+        // justify-content: space-around;
+        button{
+            margin-right: 14px;
+            margin-bottom: 10px;
+        }
+    }
+    .order-list{
+        padding: 0 10px;
+    }
+    .recovery-bule{
+        color: $blue;
+        cursor: pointer;
+    }
+    .gray{
+        cursor: not-allowed;
+        color: gray;
+    }
+    .tab-box{
+        & tr th{
+            font-size: 14px;
+        }
+        & td{
+            font-size: 12px;
+            padding: 16px 10px;
+        }
+    }
+}

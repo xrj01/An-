@@ -1,0 +1,54 @@
+@import "../../colorConfig";
+.merchant-list-box{
+  width: 100%;
+  input,select{
+    border-radius: 4px; 
+  }
+  .databox{
+    width: 300px;
+  }
+  .form-box>div{
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 12px;
+  }
+  .merchant-nums{
+    height: 40px;
+    line-height: 40px;
+    background: #e6f3fc;
+    padding: 0 10px;
+    em{
+      font-weight: 550;
+      font-size: 18px;
+      font-style: normal;
+    }
+  }
+  .iconColor{
+    color: #108ee9;
+  }
+  .tab-box{
+    position: relative;
+    .batch-operation{
+      position: absolute;
+      bottom: 16px;
+      left: 10px;
+      .batch-btn{
+        margin-right: 10px;
+      }
+    }
+    .editbtn{
+      cursor: pointer;
+      &:hover{
+        color: #108ee9;
+      }
+    }
+  }
+  
+  .avatar-uploader > .ant-upload {
+    width: 128px;
+    height: 128px;
+  }
+}
+.usernames{
+  border: none !important;
+}

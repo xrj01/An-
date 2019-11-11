@@ -1,0 +1,95 @@
+@import '../../../colorConfig.scss';
+.logitics-modal-box{
+    .ant-modal-footer{
+        border-top: none;
+        padding: 0 40px 40px 40px;
+        .ant-btn{
+            width: 80px;
+            height: 40px;
+            margin-left: 10px;
+            &:first-child{
+                color: $c99;
+            }
+        }
+    }
+    .ant-modal-body{
+        padding: 40px;
+    }
+    .order-base-info {
+        padding: 10px;
+        display: flex;
+        background: #EEEEEE;
+        height: 90px;
+        overflow: hidden;
+        div.img {
+            background: url(../../../image/moren-list-light.png) no-repeat;
+            width: 70px;
+            height: 70px;
+            position: relative;
+            background-size: 100%;
+            margin-right: 20px;
+            img {
+                width: 100%;
+            }
+            span {
+                position: absolute;
+                background-color: rgba($color: #000, $alpha: 0.7);
+                height: 20px;
+                line-height: 20px;
+                font-size: 12px;
+                text-align: center;
+                color: $fff;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+        }
+        .base-info{
+            flex: 1 1;
+            line-height: 26px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            &>div{
+                display: flex;
+                .tit{
+                    flex: 0 0 70px;
+                    text-align: right;
+                    font-weight: bold;
+                    color: $c33;
+                }
+                .text{
+                    flex: 1 1;
+                    color: $c66;
+                }
+            }
+        }
+    }
+    .time-axis{
+        padding: 40px 20px 0;
+        height: 391px;
+        overflow-y: auto;
+        border: 1px solid $eee;
+        position: relative;
+        .log-null{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .dot-process{
+            font-size: 14px;
+            line-height: 22px;
+            margin-bottom: 2px;
+            padding-left: 10px;
+            color: $c66;
+        }
+        .dot-time{
+            font-size: 12px;
+            color: $c66;
+            margin-bottom: 0;
+            line-height: 1;
+            padding-left: 10px;
+        }
+    }
+}

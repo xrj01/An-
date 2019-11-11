@@ -1,0 +1,70 @@
+@import "./../../../colorConfig";
+.commodity-details-box{
+    .commodity-basicinfo{
+        .commodity-basicinfo-content{
+            div{
+                display: flex;
+                padding-left: 12px;
+                margin-top: 8px;
+                :nth-child(1){
+                    :nth-child(1){
+                        font-weight: bold;
+                        flex: 0 0 90px;
+                        text-align: right;
+                    }
+                }
+                :nth-child(2){
+                    :nth-child(1){
+                        font-weight: bold;
+                        flex: 0 0 90px;
+                        text-align: right;
+                    }
+                }
+            }
+        }
+        
+    }
+    .commodity-img-management{
+        .commodity-img-box{
+            height: 200px;
+            padding: 20px 30px;
+            display: flex;
+            flex-direction: row;
+            .commodity-img{
+                width: 170px;
+                height: 170px;
+                border: 1px solid #ccc;
+                margin-right: 20px;
+                padding: 10px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .commodity-product-description{
+        
+        .commodity-product-content{
+            padding:20px;
+            min-height: 800px;
+            .table-box{
+                width: 750px;
+                margin: 0 auto 30px;
+                .tdTitle{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .commodity-basicinfo-title{
+        margin-top: 10px;
+        padding-left: 12px;
+        background: $e6f;
+        height: 40px;
+        line-height: 40px;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: left;
+    }
+}

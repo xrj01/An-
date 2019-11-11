@@ -1,0 +1,34 @@
+@import "./../../colorConfig";
+
+.search-box{
+  display: flex;
+  flex-direction: row;
+}
+.table-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.department-addform{
+  .ant-modal-body{
+    padding-bottom: 0;
+    padding-left: 20px;
+    max-height: 596px;
+    overflow: auto;
+  }
+  .ant-modal-footer{
+    padding: 15px 44px;
+  }
+}
+.class-pagination-box{
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  .pagination-btn{
+      margin-left: 16px;
+      vertical-align: middle;
+  }
+}
+.ant-pagination-options-quick-jumper{
+  line-height: 0 !important;
+}

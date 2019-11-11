@@ -1,0 +1,122 @@
+@import "../../colorConfig";
+
+.account-box {
+    width: 100%;
+
+    .search-box {
+        &>div {
+            margin-bottom: 10px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .btn-box {
+            button {
+                margin-right: 10px;
+            }
+        }
+    }
+    .category{
+        color: #666;
+        cursor: pointer;
+    }
+    .category:hover{
+        color: #108ee9;
+    }
+    .merchant-nums {
+        height: 40px;
+        line-height: 40px;
+        background: #e6f3fc;
+        padding: 0 10px;
+
+        em {
+            font-weight: 550;
+            font-size: 18px;
+            font-style: normal;
+        }
+    }
+
+    .iconColor {
+        color: #108ee9;
+    }
+
+    .addNew {
+        float: right;
+        margin-right: 20px;
+    }
+    
+    .tab-box {
+        & tr th{
+            font-size: 14px;
+        }
+        & td{
+            font-size: 12px;
+        }
+        position: relative;
+        font-size: 12px;
+
+        .batch-operation {
+            position: absolute;
+            bottom: 17px;
+            left: 10px;
+
+            .batch-btn {
+                margin-right: 10px;
+            }
+        }
+
+        .editbtn {
+            cursor: pointer;
+
+            &:hover {
+                color: #108ee9;
+            }
+        }
+    }
+
+}
+
+
+.authorization-Management {
+    background-color: #e6f3fc;
+    line-height: 32px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.iconColor {
+    color: #108ee9 !important;
+}
+
+.merchant-nums {
+    height: 40px;
+    line-height: 40px;
+    background: #e6f3fc;
+    padding: 0 10px;
+
+    em {
+        font-weight: 550;
+        font-size: 18px;
+        font-style: normal;
+    }
+}
+
+.login-default {
+    color: #b3b3b3;
+    margin-bottom: 24px;
+
+    .login-pwd {
+        text-align: right;
+        margin-right: 14px;
+        padding-right: 4px;
+        color: rgba(0, 0, 0, 0.85);
+    }
+}
+
+.position-input{
+    position: relative;
+    span.position-span{
+        position: absolute;
+        right: 6px;
+    }
+}
